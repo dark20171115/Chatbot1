@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/dark20171115/Chatbot1/issues"
   },
-  "homepage": "https://github.com/dark20171115/Chatbot1#readme"
+  "homepage": "https://github.com/dark20171115/Chatbot1#readme",
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "body-parser": "^1.18.2",
+    "config": "^1.28.1",
+    "express": "^4.16.2",
+    "request": "^2.83.0",
+    "uuid": "^3.1.0"
+  }
 }
