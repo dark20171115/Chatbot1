@@ -332,10 +332,10 @@ function showMenu(senderID) {
         type: "template",
         payload: {
           template_type: "button",
-          text: "Menú 🤖",
+          text: "MenÃº ðŸ¤–",
           buttons:[{
             type: "postback",
-            title: "Chuck Norris 💀",
+            title: "Chuck Norris ðŸ’€",
             payload: "CHUCK_NORRIS"
           },]
         }
@@ -352,11 +352,11 @@ function showMenu(senderID) {
         type: "template",
         payload: {
           template_type: "button",
-          text: "Menú Principal 🤖",
+          text: "MenÃº Principal ðŸ¤–",
           buttons:[{
             type: "web_url",
             url: "http://idevco.de",
-            title: "Mi programador! 🕺"
+            title: "Mi programador! ðŸ•º"
           }]
         }
       }
@@ -425,7 +425,7 @@ function receivedPostback(event) {
     "at %d", senderID, recipientID, payload, timeOfPostback);
 
   if (payload == "FACEBOOK_WELCOME") {
-    sendTextMessage(senderID, "Bienvenido, humano! Haz click en 'menu' para ver una lista de mis abilidades 🤖");
+    sendTextMessage(senderID, "Bienvenido, humano! Haz click en 'menu' para ver una lista de mis abilidades ðŸ¤–");
   }
   else if (payload == "PAYLOAD_HELP") {
     //console.log("PAYLOAD_HELP activated!");
