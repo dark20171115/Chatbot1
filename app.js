@@ -333,8 +333,8 @@ function sendToBot(senderID, message){
         if(response){
           const result = response.result;
           if(result){
-            const fulfilment =result.fulfilment;
-            if(fulfilment&&fulfilment.speach&&fulfilment.speach.lenght > 0){
+            const fulfilment =result.fulfillment;
+            if(fulfilment&&fulfilment.speech&&fulfilment.speech.length > 0){
               sendTextMessage(senderID, fulfilment,speach);
             }
           }
