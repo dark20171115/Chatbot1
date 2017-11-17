@@ -331,6 +331,7 @@ function sendToBot(senderID, message){
     request.on('response', function(response) {
         console.log(response);
         if(response){
+          const result = response.result;
           if(result){
             const fulfilment =result.fulfilment;
             if(fulfilment&&fulfilment.speach&&fulfilment.speach.lenght > 0){
