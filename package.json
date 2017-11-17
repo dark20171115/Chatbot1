@@ -1,22 +1,22 @@
 {
-  "name": "chatbot1",
+  "name": "samplebot",
   "version": "1.0.0",
   "description": "Chatbot",
   "main": "app.js",
   "scripts": {
-    "star": "node app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dark20171115/Chatbot1.git"
+    "url": "git+https://github.com/fakerabbit/samplebot.git"
   },
-  "author": "DarwinP",
+  "author": "Mirko Justiniano",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dark20171115/Chatbot1/issues"
+    "url": "https://github.com/fakerabbit/samplebot/issues"
   },
-  "homepage": "https://github.com/dark20171115/Chatbot1#readme",
+  "homepage": "https://github.com/fakerabbit/samplebot#readme",
   "dependencies": {
     "apiai": "^4.0.3",
     "body-parser": "^1.18.2",
